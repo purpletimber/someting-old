@@ -1,0 +1,14 @@
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int c;
+		Scanner s=new Scanner(System.in);
+		c=s.next().charAt(0);
+		
+	    if(c== 'a' | c== 'e' | c== 'i' | c== 'o' | c== 'u')
+	    System.out.println("the alphabet is a vovel");
+	    else
+	    System.out.println("the alphabet is a consonent");
+	}
+}
